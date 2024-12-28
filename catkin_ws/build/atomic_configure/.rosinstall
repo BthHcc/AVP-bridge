@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/bth/Learn/shuo/code/test/catkin_ws/devel/setup.sh

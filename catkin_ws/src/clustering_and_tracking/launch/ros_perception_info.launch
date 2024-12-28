@@ -1,0 +1,7 @@
+<launch>
+    <!-- 播放 ROS bag 文件 -->
+    <node pkg="rosbag" type="play" name="rosbag_play" output="screen" args="/home/bth/Learn/shuo/AVPManager/data/AVP/BAG/simple_info.bag"/>
+
+    <!-- 启动自定义 Python 节点 -->
+    <node pkg="clustering_and_tracking" type="ros_perception_info.py" name="ros_perception_info" output="screen"/>
+</launch>
